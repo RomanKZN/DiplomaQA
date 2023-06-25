@@ -13,6 +13,7 @@
 - Перейти к папке с тестами fmh-android\app\src\androidTest\java\ru\iteco\fmhandroid\ui\test нажать ПКМ и выбрать Run 'Tests in 'ru.iteco.fmhandroid.ui.test' или комбинацией клавиш Ctrl+Shift+F10
 - Запустить каждый тестовыый класс отдельно, например выбать AuthTest > ПКМ > выбрать Run 'AuthTest' или комбинацией клавиш Ctrl+Shift+F10
 - Через терминал командой ./gradlew connectedAndroidTest
+  (Внимание! Есть не стабильные тесты при запуске всех тестов, если их запускать отдельно, то они проходят)
 
 5. Выгрузить каталог /data/data/ru.iteco.fmhandroid/files/allure-results с эмулятора.
 
